@@ -235,3 +235,7 @@ body {
 .modal-form-descr > span {
     color: #FF6B0A;
 }
+button{
+    border: none;
+    outline: none;
+}
