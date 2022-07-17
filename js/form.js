@@ -28,7 +28,7 @@ closeBtns.forEach(btn => {
     btn.addEventListener('click', e => {
         e.stopPropagation();
         closeFormModal();
-        // closeSuccessModal();
+        closeSuccessModal();
     })
 })
 
