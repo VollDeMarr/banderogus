@@ -157,11 +157,13 @@ body {
   transition: all 0.3s ease-in-out;
 }
 .modal-form {
-  background-color: #ffffff;
-  padding: 32px 92px 60px 92px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.modal-form-container {
+  background-color: #ffffff;
+  padding: 32px 92px 60px 92px;
   position: relative;
 }
 .modal-form-title {
@@ -233,9 +235,9 @@ body {
 }
 
 .modal-form-descr > span {
-    color: #FF6B0A;
+  color: #ff6b0a;
 }
-button{
-    border: none;
-    outline: none;
+button {
+  border: none;
+  outline: none;
 }
